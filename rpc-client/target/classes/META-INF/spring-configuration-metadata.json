@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "rpc.client",
+      "type": "com.cheeterlee.rpc.client.config.RpcClientProperties",
+      "sourceType": "com.cheeterlee.rpc.client.config.RpcClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rpc.client.loadbalance",
+      "type": "java.lang.String",
+      "description": "Load balancing algorithm, candidate values include: (random, roundRobin, consistentHash), the default is random.",
+      "sourceType": "com.cheeterlee.rpc.client.config.RpcClientProperties"
+    },
+    {
+      "name": "rpc.client.registry",
+      "type": "java.lang.String",
+      "description": "Registration center, such as (zookeeper, nacos, etc.), defaults to: zookeeper",
+      "sourceType": "com.cheeterlee.rpc.client.config.RpcClientProperties"
+    },
+    {
+      "name": "rpc.client.registry-addr",
+      "type": "java.lang.String",
+      "description": "Service discovery (registry) address. The default is \"127.0.0.1:2181\"",
+      "sourceType": "com.cheeterlee.rpc.client.config.RpcClientProperties"
+    },
+    {
+      "name": "rpc.client.serialization",
+      "type": "java.lang.String",
+      "description": "Serialization algorithm, candidate values include: (JDK, JSON, HESSIAN, KRYO, PROTOSTUFF), default: HESSIAN",
+      "sourceType": "com.cheeterlee.rpc.client.config.RpcClientProperties"
+    },
+    {
+      "name": "rpc.client.timeout",
+      "type": "java.lang.Integer",
+      "description": "Connection timeout, default: 5000",
+      "sourceType": "com.cheeterlee.rpc.client.config.RpcClientProperties"
+    },
+    {
+      "name": "rpc.client.transport",
+      "type": "java.lang.String",
+      "description": "Communication protocols, such as netty and http, are netty by default",
+      "sourceType": "com.cheeterlee.rpc.client.config.RpcClientProperties"
+    }
+  ],
+  "hints": []
+}

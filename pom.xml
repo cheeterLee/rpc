@@ -12,6 +12,13 @@
     <name>cheeterlee-rpc</name>
     <modules>
         <module>rpc-core</module>
+        <module>rpc-server</module>
+        <module>rpc-client</module>
+        <module>rpc-server-spring-boot-starter</module>
+        <module>rpc-client-spring-boot-starter</module>
+        <module>example-consumer</module>
+        <module>example-provider</module>
+        <module>example-provider-api</module>
     </modules>
 
     <properties>

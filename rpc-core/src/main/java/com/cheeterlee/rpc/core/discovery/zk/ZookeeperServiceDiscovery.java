@@ -31,7 +31,7 @@ public class ZookeeperServiceDiscovery implements ServiceDiscovery {
 
     private static final int MAX_RETRY = 10;
 
-    private static final String BASE_PATH = "/wxy_rpc";
+    private static final String BASE_PATH = "/cheeterlee_rpc";
 
     private LoadBalance loadBalance;
 
